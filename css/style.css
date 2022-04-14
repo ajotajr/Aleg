@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:wght@400;700&family=Oswald&family=Raleway:ital,wght@0,400;1,200&family=Roboto:ital,wght@1,300&display=swap');
+
+/* Menu site */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background: #6dad9d;
+    padding: 10px;
+}
+
+.menu-topo {
+    text-align: right;
+}
+
+.menu-topo li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+.menu-topo li a {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header img {
+    margin-top: -7px;
+}
+
+.menu-topo li a:hover {
+    transition: 0.7s all;
+    color: #ec8cdc;
+}
+
+/* Banner */ 
+
+.banner {
+    width: 100%;
+    height: 575px;
+    background: url(../img/banner.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner h1 {
+    font-family: 'lato';
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+    text-align: center;
+    margin-top: 350px;
+    margin-bottom: 40px;
+    line-height: 60px;
+}
+
+.botao {
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #e853ae;
+    border-radius: 15px;
+}
+
+.botao:hover {
+    background: #ca53e8;
+    transition: 0.7s all;
+    box-shadow: 2px 3px 3px 2px black;
+}
+
+/* Aviso */
+
+.aviso {
+    width: 100%;
+    height: 140px;
+    background-color: #bbefe2;
+}
+
+.aviso h2 {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: rgb(189, 89, 209);
+}
+
+.aviso p {
+    font-family: 'Lato';
+    font-size: 17px;
+    margin-top: 10px;
+    color: #424242;
+}
+
+/* Selos */
+
+.selos {
+    height: 435px;
+    background-color: #debaf1;
+}
+
+.selos h2 {
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 45px;
+    text-align: center;
+    color: white;
+}
+
+.selos h2::after {
+    content: '';
+    width: 105px;
+    height: 3px;
+    background: #d47ed3;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.selo-img {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.selo-img h3 {
+    font-family: 'lato';
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: white;
+}
+
+.selo-img p {
+    font-family: 'lato';
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 25px;
+    color: #e853ae;
+}
+
+/* Sobre nós */
+
+.sobre {
+    height: 490px;
+    background: #bbefe2;
+}
+
+.sobre h2 {
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    color: #7857c2;
+}
+
+.sobre p {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8657b1;
+    margin-top: 10px;
+}
+
+.sobre h3 {
+    font-family: 'lato';
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin-top: 140px;
+    color: #c441d4;
+
+}
+
+.sobre img {
+    margin-top: 55px;
+
+}
+
+.sobre h2::after {
+    content: '';
+    width: 175px;
+    height: 3px;
+    background: #d47ed3;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+/* Rodapé */
+
+.rodape {
+    height: 65px;
+    background: #6dad9d;
+}
+
+.rodape p {
+    font-family: 'Lato';
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
